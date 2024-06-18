@@ -1,0 +1,12 @@
+
+m	java:S106"+Replace this use of System.out by a logger.(ê´³µ8Âİ¶¹‚2J$b507e901-8dc1-4aa2-82a2-f0186e99cc05
+l	java:S106"+Replace this use of System.out by a logger.(ÿÒº78Äİ¶¹‚2J$5d1a69a5-d41a-4efc-a5c2-c597d2af3cd7
+r	java:S106"+Replace this use of System.out by a logger.(¼’ó©øÿÿÿÿ8Åİ¶¹‚2J$5e162ab7-76a7-40fc-8bf4-aae79dc2a2df
+ƒ
+java:S1612";Replace this lambda with method reference 'String::concat'.(¼’ó©øÿÿÿÿ8Èİ¶¹‚2J$d3884964-d3a8-4598-b3cc-e664818309d8
+m	java:S106"+Replace this use of System.out by a logger.(şêÅŠ8Éİ¶¹‚2J$f9e80873-c5d8-49d6-95ae-cf40762ae7d9
+r	java:S106"+Replace this use of System.out by a logger.(îŒÇíşÿÿÿÿ8Êİ¶¹‚2J$d8d4aa8e-aea0-4836-9865-4b198db0294e
+m	java:S106"+Replace this use of System.out by a logger.(‡íŠ8«ßüÍ‚2J$ad7019df-3724-44f2-bd9d-7803b3ff766b
+L	java:S106"+Replace this use of System.out by a logger.(õş¦¤ûÿÿÿÿ8æğıÍ‚2
+€
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8«Â¸¹‚2J$44b5dded-7f26-48fd-9e66-02a5193c652d
