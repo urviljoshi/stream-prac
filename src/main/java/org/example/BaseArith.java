@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.Comparator;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -12,6 +13,14 @@ public class BaseArith {
         System.out.println(IntStream.range(0, 100).min());
         System.out.println(IntStream.range(0, 100).max());
         System.out.println(IntStream.range(0, 100).count());
-        System.out.println(IntStream.range(0, 100).collect(Collectors.averagingInt(x->x)));
+
+        //boxed stream class ops
+        System.out.println(IntStream.range(0, 100).boxed().collect(Collectors.summingInt(x->x)));
+        System.out.println(IntStream.range(0, 100).boxed().collect(Collectors.averagingInt(x->x)));
+        System.out.println(IntStream.range(0, 100).boxed().collect(Collectors.minBy(Comparator.comparing(x->x))));
+        System.out.println(IntStream.range(0, 100).boxed().collect(Collectors.maxBy(Comparator.comparing(x->x))));
+
+
+
     }
 }
