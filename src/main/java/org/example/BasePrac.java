@@ -14,12 +14,17 @@ public class BasePrac {
         // two param reduce
         System.out.println(names.stream().reduce("", (n1,n2)-> n1.concat(n2)));
         // three param reduce
-        System.out.println(names.stream().reduce(0, (n1,n2)-> n1+n2.length(),Integer::sum));
+        System.out.println(names.stream().reduce(0, (n1,n2)-> n1+n2.length(),Integer::max));
         // sorting
         System.out.println(names.stream().sorted(Comparator.comparing(String::length)).toList());
         //distinct limit
         System.out.println(names.stream().distinct().toList());
         System.out.println(names.stream().limit(1).toList());
+        //flatmap
+        System.out.println(names.stream().flatMap(x-> Arrays.stream(x.split(""))).toList());
+
+
+
 
     }
 }
